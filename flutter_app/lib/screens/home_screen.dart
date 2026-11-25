@@ -56,10 +56,12 @@ class _HomeScreenState extends State<HomeScreen> {
                     PopupMenuItem(value: 'setup', child: Text('Phone setup (Termux, engine, battery)')),
                     PopupMenuItem(value: 'stop', child: Text('Stop the engine')),
                     PopupMenuItem(value: 'out', child: Text('Use a PC instead')),
+                    PopupMenuItem(enabled: false, child: Text(creditLine, style: TextStyle(fontSize: 11.5))),
                   ]
                 : [
                     PopupMenuItem(enabled: false, child: Text('PC: ${Api.instance.base.replaceFirst('http://', '')}')),
                     const PopupMenuItem(value: 'out', child: Text('Disconnect from this PC')),
+                    const PopupMenuItem(enabled: false, child: Text(creditLine, style: TextStyle(fontSize: 11.5))),
                   ],
           ),
         ],

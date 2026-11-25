@@ -5,7 +5,7 @@
 # Plain text on purpose: you can read every line before you run it.
 param(
     [string]$InstallDir = (Join-Path $env:LOCALAPPDATA 'NeonClipping'),
-    [string]$ZipUrl = 'https://github.com/Mdamanatansari7/neonclipping/archive/refs/heads/main.zip',
+    [string]$ZipUrl = 'https://github.com/Mdamanatansari7/youtube-automaction-studio/archive/refs/heads/main.zip',
     [string]$SourceDir = '',          # developers: copy the app from a local folder instead of downloading
     [switch]$NoStart,                 # install only, do not start the app
     [switch]$Yes,                     # answer "yes" to the optional questions (GPU libraries, Ollama)
@@ -145,7 +145,7 @@ try {
     }
     if (-not (Test-Path (Join-Path $app 'app.py'))) { throw "App files nahi mile (app.py missing). Internet check karo." }
     try {
-        $sha = (Invoke-WebRequest -UseBasicParsing -Uri 'https://api.github.com/repos/Mdamanatansari7/neonclipping/commits/main' -Headers @{ Accept = 'application/vnd.github.sha'; 'User-Agent' = 'NeonClipping-installer' } -TimeoutSec 10).Content
+        $sha = (Invoke-WebRequest -UseBasicParsing -Uri 'https://api.github.com/repos/Mdamanatansari7/youtube-automaction-studio/commits/main' -Headers @{ Accept = 'application/vnd.github.sha'; 'User-Agent' = 'NeonClipping-installer' } -TimeoutSec 10).Content
         if ($sha -is [byte[]]) { $sha = [Text.Encoding]::ASCII.GetString($sha) }
         $sha = ([string]$sha).Trim()
         if ($sha.Length -eq 40) { Set-Content -Path (Join-Path $app '.neon_version') -Value $sha -Encoding ASCII -NoNewline }

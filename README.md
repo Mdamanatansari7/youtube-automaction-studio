@@ -6,6 +6,8 @@ Ninja Studio Clipping turns long YouTube / Twitch / Kick videos (or your own MP4
 
 [![Instagram](https://img.shields.io/badge/Follow-%40amanat____official__-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/amanat__official_)
 
+> **Free to use, credit required.** By Md Amanat Ansari ([@amanat__official_](https://www.instagram.com/amanat__official_)). Using it in your own project? Keep the [LICENSE](LICENSE) and add the credit line, see [License](#license-free-to-use-credit-required).
+
 Follow [@amanat\_\_official\_](https://www.instagram.com/amanat__official_) on Instagram for updates.
 
 ![demo](docs/demo.gif)
@@ -15,8 +17,8 @@ Follow [@amanat\_\_official\_](https://www.instagram.com/amanat__official_) on I
 Requirements: Python 3.10 to 3.13 (the newest Python often has no wheels for the speech/vision packages yet; the Mac/Linux installer picks a supported one for you), FFmpeg on PATH. Optional but recommended: [Ollama](https://ollama.com) with `ollama pull llama3.2:3b` for AI titles, hooks and scores (without it clips are picked by the audio/motion score), and an NVIDIA GPU for NVENC and faster-whisper.
 
 ```bash
-git clone https://github.com/Mdamanatansari7/neonclipping
-cd neonclipping
+git clone https://github.com/Mdamanatansari7/youtube-automaction-studio
+cd youtube-automaction-studio
 # Windows
 ./run.ps1
 # Linux / macOS
@@ -175,8 +177,20 @@ python tests/e2e.py static export edit creators feedback      # server must be r
 
 ## Credits
 
-Built on FFmpeg, yt-dlp, FastAPI, faster-whisper, OpenCV (YuNet face detector, MIT) and Ollama. Design ideas studied from open-source clippers such as [PeakCut](https://github.com/haziqahmedqasmi/PeakCut), [ClipCutter](https://github.com/curtyo18/ClipCutter) and [content-ai](https://github.com/buddah0/content-ai).
+Made by **Md Amanat Ansari** ([@amanat__official_](https://www.instagram.com/amanat__official_), [github.com/Mdamanatansari7](https://github.com/Mdamanatansari7)).
 
-## License
+Started from NeonClipping by Ajay K Meena and contributors (MIT). Built on FFmpeg, yt-dlp, FastAPI, faster-whisper, OpenCV (YuNet face detector, MIT) and Ollama. Design ideas studied from open-source clippers such as [PeakCut](https://github.com/haziqahmedqasmi/PeakCut), [ClipCutter](https://github.com/curtyo18/ClipCutter) and [content-ai](https://github.com/buddah0/content-ai).
 
-MIT. See [LICENSE](LICENSE).
+## License: free to use, credit required
+
+This is **source-available, not open source**. You may use, change and share it, also commercially, **as long as you give credit**. Full terms in [LICENSE](LICENSE).
+
+- Keep the [LICENSE](LICENSE) file in every copy or fork.
+- Put this line in your README, and in your app or website where users can see it (About page or footer):
+
+  > Based on Ninja Studio Clipping by Md Amanat Ansari (@amanat__official_) — https://github.com/Mdamanatansari7/youtube-automaction-studio
+
+- Do not remove the credit that is already in the app, and do not present it as your own work or use the "Ninja Studio" name or logo for your own product.
+- The parts that come from NeonClipping stay under their MIT license (notice at the end of [LICENSE](LICENSE)).
+
+Want to use it without the credit line? Ask on Instagram [@amanat__official_](https://www.instagram.com/amanat__official_).

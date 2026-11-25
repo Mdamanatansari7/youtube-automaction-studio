@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+/// Shown in the app (connect screen and menu); the LICENSE asks forks to keep it.
+const creditLine = 'Ninja Studio Clipping · by Md Amanat Ansari (@amanat__official_)';
+
 // Same colours as the PC app.
 class Neon {
   static const bg = Color(0xFF0A0A0C);

@@ -8,7 +8,7 @@
 # writes ~/ninjastudio-start.sh / ~/ninjastudio-stop.sh and lets the Ninja Studio phone app start the engine by itself.
 # Run it again any time to update. Your clips and settings in ~/ninjastudio-data are kept.
 set -e
-ZIP="${NINJA_ZIP:-https://github.com/Mdamanatansari7/neonclipping/archive/refs/heads/main.zip}"
+ZIP="${NINJA_ZIP:-https://github.com/Mdamanatansari7/youtube-automaction-studio/archive/refs/heads/main.zip}"
 APP="$HOME/ninjastudio"
 DATA="$HOME/ninjastudio-data"
 HERE="$(cd "$(dirname "${BASH_SOURCE[0]:-$0}")" 2>/dev/null && pwd || true)"

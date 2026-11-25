@@ -5,7 +5,7 @@
 # Everything goes into ~/NeonClipping. Delete that folder to uninstall.
 set -e
 DIR="${NEONCLIPPING_DIR:-$HOME/NeonClipping}"
-ZIP="${NEONCLIPPING_ZIP:-https://github.com/Mdamanatansari7/neonclipping/archive/refs/heads/main.zip}"
+ZIP="${NEONCLIPPING_ZIP:-https://github.com/Mdamanatansari7/youtube-automaction-studio/archive/refs/heads/main.zip}"
 say() { printf '\n==> %s\n' "$1"; }
 need() { command -v "$1" >/dev/null 2>&1 || { echo "Missing: $1. $2"; MISSING=1; }; }
 
@@ -36,7 +36,7 @@ TMP="$(mktemp -d)"
 curl -fsSL "$ZIP" -o "$TMP/nc.zip"
 unzip -q "$TMP/nc.zip" -d "$TMP"
 mkdir -p "$DIR/app"
-cp -R "$TMP"/neonclipping-*/. "$DIR/app/"
+cp -R "$TMP"/*/. "$DIR/app/"          # the one folder inside the GitHub zip
 rm -rf "$TMP"
 
 say "Step 3/4 - Installing packages (3-6 minutes)"

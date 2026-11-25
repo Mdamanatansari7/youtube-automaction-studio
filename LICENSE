@@ -1,6 +1,60 @@
+Ninja Studio Clipping (YouTube Automaction Studio)
+Attribution License, version 1.0
+
+Copyright (c) 2026 Md Amanat Ansari (@amanat__official_, github.com/Mdamanatansari7)
+https://github.com/Mdamanatansari7/youtube-automaction-studio
+
+This is a source-available license, not an open-source license. You may use this software only under the
+terms below. Using, copying or changing the software means you accept them.
+
+1. What you may do
+   You may use, copy, modify and share this software and things you make with it (for example clips and
+   videos), for personal or commercial purposes, as long as you follow sections 2 to 4.
+
+2. Credit is required
+   a) Every copy, fork or changed version of the software, published or shared in any way, must keep this
+      LICENSE file and must show this credit line in its README (or the first page of its documentation):
+
+         Based on Ninja Studio Clipping by Md Amanat Ansari (@amanat__official_)
+         https://github.com/Mdamanatansari7/youtube-automaction-studio
+
+   b) Any app, website or service that uses this software or a changed version of it must show the same
+      credit line where its users can see it (for example an About, Credits or Settings page, or the footer).
+   c) You may not remove or hide the credit to Md Amanat Ansari / @amanat__official_ that is already shown
+      in the software (the website footer, sidebar and the phone app).
+
+3. Not your own work
+   You may not present the software, or a changed version of it, as entirely your own work, and you may not
+   use the names "Ninja Studio" or "Ninja Studio Clipping" or its logo as the name or logo of your own
+   product without written permission. Saying that your product is "based on Ninja Studio Clipping" is fine.
+
+4. Other people's parts stay under their own licenses
+   Parts of this software come from NeonClipping (MIT License, notice below) and use other open-source
+   projects (FFmpeg, yt-dlp, FastAPI, faster-whisper, OpenCV and others) under their own licenses. Nothing in
+   this license limits what those licenses allow for their parts.
+
+5. If you break these terms
+   Your permission under this license ends automatically. It comes back if you fix the problem within 30
+   days of learning about it.
+
+6. No warranty
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+   LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO
+   EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+   IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+   USE OR OTHER DEALINGS IN THE SOFTWARE. You are responsible for what you make and upload with it, including
+   copyright in the videos you use.
+
+For any other use (for example without the credit line), ask for written permission:
+Instagram @amanat__official_ or github.com/Mdamanatansari7.
+
+
+--------------------------------------------------------------------------------------------------------------
+Notice for the parts that come from NeonClipping
+--------------------------------------------------------------------------------------------------------------
+
 MIT License
 
-Copyright (c) 2026 Ninja Studio Clipping (@amanat__official_)
 Copyright (c) 2026 Ajay K Meena and NeonClipping contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

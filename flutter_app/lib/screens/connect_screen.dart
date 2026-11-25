@@ -132,6 +132,8 @@ class _ConnectScreenState extends State<ConnectScreen> {
                 ]),
               ),
             ),
+            const SizedBox(height: 18),
+            const Text(creditLine, textAlign: TextAlign.center, style: TextStyle(color: Neon.muted, fontSize: 12)),
           ],
         ),
       ),
